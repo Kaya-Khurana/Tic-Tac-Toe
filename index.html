@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe Advanced</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Tic Tac Toe</h1>
+
+    <div>
+      <label
+        >Mode:
+        <select id="mode">
+          <option value="human">Human vs Human</option>
+          <option value="ai">Human vs AI</option>
+        </select>
+      </label>
+
+      <label
+        >Difficulty:
+        <select id="difficulty">
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+      </label>
+
+      <label
+        >Player Icon:
+        <select id="icon">
+          <option value="X">X vs O</option>
+          <option value="😎">😎 vs 🤖</option>
+          <option value="🍕">🍕 vs 🍔</option>
+        </select>
+      </label>
+    </div>
+
+    <div id="timer">Time left: <span id="timeLeft">10</span>s</div>
+    <div class="board" id="board"></div>
+    <p id="status"></p>
+    <button onclick="restartGame()">Restart Game</button>
+
+    <audio id="clickSound" src="click.mp3"></audio>
+    <audio id="winSound" src="win.mp3"></audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
