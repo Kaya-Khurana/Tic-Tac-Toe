@@ -17,7 +17,7 @@ A modern, feature-rich Tic Tac Toe game built with HTML, CSS, and JavaScript. Pl
 ## 🖥️ How to Play
 
 1. **Clone or Download** this repository.
-2. Open `index.html` in your browser.
+2. Open index.html in your browser.
 3. Select your desired **Mode**, **Difficulty**, and **Player Icon**.
 4. Play by clicking on any empty cell.
 5. The game will automatically detect wins, draws, and handle AI moves and timers.
